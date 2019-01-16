@@ -13,4 +13,4 @@ VancouverTourism is a Web Site created as to shown a parallex effect, site was b
  
  
  
- ****************************************************************************
+                                           ****************:X:*******************
