@@ -1,5 +1,5 @@
 # Vancouver
-VancouverTourism is a Web Site created as to shown a parallex effect  during my final project in CSIS1280 course (aka Multimedia and web development )
+VancouverTourism is a Web Site created as to shown a parallex effect, site was build during my final project in CSIS1280 course (aka Multimedia and web development )
  Programming languages and software are used:
  1. HTML5, CSS3, JavaScript 
  2. Software : Photoshop CC 2015 
