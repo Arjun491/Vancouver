@@ -8,8 +8,8 @@ VancouverTourism is a Web Site created as to shown a parallex effect  during my 
  
  *********************************************************Note***************************************************************************
  You are free to use this website idea but cannot published it, as the images that are used is copyrights.
- please make proper citation before using any code and mention my contribution too.
- mail -arjun9768@gmail.com
+ please make proper citation before using any code and feel free to contribute into code :)  .
+  -arjun9768@gmail.com
  
  
  
