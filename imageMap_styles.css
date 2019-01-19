@@ -1,0 +1,37 @@
+@charset "UTF-8";
+html
+{
+  background-image:url(imageMap.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+body nav a#logo
+{
+float: left;
+margin: 0px;
+padding-left: 10px;
+padding-bottom:  10px;
+padding-right: 20px;
+
+}
+
+
+/*footer style*/
+
+/*same footer for all html pages */
+.footer
+{
+  width: 100%; /*keep full width*/
+color: #fff; /* text color white*/
+  position: relative; /*position relative to html*/
+  background-color: transparent;
+  background-color: grey;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+font-variant: small-caps;
+opacity: 0.55;
+}

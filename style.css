@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+
+@font-face {
+font-family: FiraSans_Regular
+src:url('FiraSans_Regular.tff') format('truetype');
+}
+/*
+Multimedia Web Development
+Name: Explore Vancouver(Assignment-1)
+Author : Arjun Singh
+Date:15-OCT-2018
+*/
+/*Using web font here
+font source: https://www.typewolf.com/site-of-the-day/fonts/fira-sans
+*/
+
+
+/*changes to whole html page */
+html
+{
+
+height: 100%;
+margin: 0;
+font-size: 16px;
+  background-color: #666;
+font-family: FiraSans_Regular,"Loto",sans-serif;
+/*changing the color of body text to light grey */
+color: #666;
+
+
+}
+body
+{
+height: 100%;
+font-size: 16px;
+margin: 0;
+font-family:FiraSans_Regular,"Luna", "Lato",sans-serif; /*web font*/
+font-weight: 400;
+line-height: 1.8em;
+/*changing the color of body text to light grey */
+color: #666;
+
+
+
+}
+p*
+{
+  text-align: center;
+}
+
+/*header and nav section */
+
+nav
+{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+
+  line-height: 70px;
+
+}
+
+nav ul li
+{
+
+  display: inline-block; /*place nav li horizontal*/
+  list-style-type: none; /*no bullets needed*/
+
+}
+nav ul
+{
+
+  float: right;
+  margin: 30px;
+
+}
+nav ul li a
+{
+
+text-decoration: none; /*remove underline of links */
+padding: 30px;
+color: #ffff;
+font-weight: lighter;
+font-size: 1.1em;
+font-family:sans-serif, FiraSans_Regular; /*web font*/
+
+}
+/*create a hover effect  */
+nav li a:hover
+{
+background-color:green;
+/*color source: https://mycolor.space/?hex=%23845EC2&sub=1 */
+
+}
+
+
+/*changes for all images*/
+.img1,.img2,.img3,.img5,.img6,.img7,.img8
+{
+
+position: relative;/**making images position relative*/
+opacity: 0.90;     /*changing opacity to make it light */
+background-position: center;  /*to make images in center */
+background-size: cover;      /*want to cover whole image size */
+background-repeat: no-repeat; /*stoping image to replace any empty space, otherwise it will repeat*/
+background-attachment: fixed; /*keep images fixed to make fixed effect within a viewport*/
+}
+/*setting all images in section  with 400px */
+.img1
+{
+
+background-image: url(pull.jpg);
+min-height: 100%;
+
+}
+.img2
+{
+
+ background-image: url(image1.jpg);
+
+min-height: 400px;
+
+}
+.img3
+{
+
+background-image: url('image3.jpg');
+min-height: 400px;
+}
+/*for page 2*/
+.img5
+{
+
+background-image: url('canadaplace.jpg');
+min-height: 400px;
+}
+.img6
+{
+
+background-image: url('dinner.jpeg');
+min-height: 400px;
+}
+.img7
+{
+
+background-image: url('gastown.jpg');
+min-height: 400px;
+}
+.img8
+{
+
+background-image: url('englishbay2.JPG');
+min-height: 400px;
+}
+
+
+.section
+{
+padding: 50px 80px; /*top-bottom , left-right*/
+text-align: center; /*keep text at the center */
+
+}
+.section-light
+{
+  /*making section color light grey */
+
+background-color: #f4f4f4;
+color: #666;
+
+
+}
+.section-dark
+{
+    /*making section color dark grey */
+
+background-color: #282e34;
+color: #ddd;
+
+}
+
+/*changes for p */
+.text
+{
+position: absolute;
+top:50%;
+width: 100%;
+text-align: center;
+color: #000;
+font-size: 27px;
+letter-spacing: 8px;
+text-transform: uppercase;
+
+}
+/*add ptext border*/
+.text .border
+{
+/*making grey border*/
+  background-color: #777;
+  color: #fff;
+  padding: 20px;
+}
+.text .border.trans1
+{
+
+  background-color: grey;
+  opacity: 0.9;
+}
+/**code for blockquote*/
+blockquote {
+  margin: 0 auto;   /*take margin zero*/
+  padding: 1em;
+  border-left: 5px solid #999; /*making a single left grey border appear on left side*/
+   quotes: "\201C"  "\201D";
+     font-family: cursive;
+}
+
+
+
+
+
+blockquote:nth-of-type(even) {
+
+  text-align: right;
+  border-left: none; /*border on right side of grey color */
+  border-right: 6px solid #998;
+}
+blockquote:nth-of-type(even) footer {
+  text-align: right; /*set blockquote to left*/
+}
+
+/*same footer for all html pages */
+.footer
+{
+  width: 100%; /*keep full width*/
+color: #fff; /* text color white*/
+  position: relative; /*position relative to html*/
+  background-color: transparent;
+  background-color: grey;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+font-variant: small-caps;
+
+}
