@@ -1,5 +1,5 @@
 # Vancouver
-This website shows the famous tourist spots of a well known city of Canada - Vancouver with parallex effect.
+This website shows the famous tourist spots of a well known city of the Canada - Vancouver with parallex effect.
  Programming languages and software are used:
  1. HTML5, CSS3, JavaScript 
  2. Software : Photoshop CC 2015 
