@@ -5,6 +5,8 @@ This website shows the famous tourist spots of a well known city of the Canada -
  2. Software : Photoshop CC 2015 
  3. Image Map: https://www.image-map.net/
  
+ ![image](https://user-images.githubusercontent.com/28630022/57724639-23ac7500-7640-11e9-9e43-e335bedf3511.png)
+ 
  # Note:
  You are free to use this website idea but cannot published it, as the images that are used are copyrights.
  
